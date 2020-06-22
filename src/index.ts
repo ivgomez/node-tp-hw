@@ -1,5 +1,5 @@
 import express, { Application, Request, Response, NextFunction } from "express";
-import second from "./second";
+import second from "./other/second";
 const app: Application = express();
 
 app.use(second);
