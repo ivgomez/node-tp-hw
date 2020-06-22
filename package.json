@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist",
     "dev": "nodemon src/index.ts",
-    "build": "tsc -p ."
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
