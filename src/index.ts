@@ -1,5 +1,8 @@
 import express, { Application, Request, Response, NextFunction } from "express";
-const app = express();
+import second from "./second";
+const app: Application = express();
+
+app.use(second);
 
 app.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello from typescript node");
