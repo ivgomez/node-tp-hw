@@ -5,4 +5,4 @@ app.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello from typescript node");
 });
 
-app.listen(3000, () => console.log("Server running"));
+app.listen(5000, () => console.log("Server running"));
