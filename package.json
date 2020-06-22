@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node build",
-    "dev": "nodemon src/index.ts",
     "build": "tsc",
-    "clean": "rm -rf src"
+    "clean": "rm -rf src",
+    "dev": "nodemon src/index.ts"
   },
   "keywords": [],
   "author": "",

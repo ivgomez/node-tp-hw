@@ -5,4 +5,6 @@ app.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello from typescript node");
 });
 
-app.listen(3000, () => console.log("Server running"));
+app.listen(process.env.PORT || 3000, () => {
+  console.log("Listing port : ", 3000);
+});
